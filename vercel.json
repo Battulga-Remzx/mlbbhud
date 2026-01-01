@@ -1,6 +1,6 @@
 {
   "routes": [
-    { "src": "/", "dest": "/hub.html" }
+    { "src": "/", "dest": "/public/hub.html" }
   ]
 }
 
