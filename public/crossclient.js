@@ -15,8 +15,8 @@ async function getServerIp() {
 
 (async () => {
   const serverIp = await getServerIp();
-  console.log(`Attempting WebSocket connection to ws://${serverIp}:3000`);
-  const ws = new WebSocket(`ws://${serverIp}:3000`);
+  console.log(`Attempting WebSocket connection to https://mlbbhud.vercel.app/`);
+  const ws = new WebSocket(`https://mlbbhud.vercel.app/`);
 
   const timerKeys = ['timer', 'timerRunning', 'resetTimerBar', 'currentPhaseIndex', 'updateTime'];
   const mvpKeys = ['mvpData', 'selectedMvp', 'mvpUpdateTime'];
@@ -114,7 +114,7 @@ async function getServerIp() {
   };
 
   ws.onopen = () => {
-    console.log(`Connected to WebSocket server at ws://${serverIp}:3000`);
+    console.log(`Connected to WebSocket server at https://mlbbhud.vercel.app/`);
   };
 
   ws.onerror = (error) => console.error('WebSocket error:', error);
