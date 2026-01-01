@@ -1,0 +1,80 @@
+{
+  "draftdata": {
+    "timer": "60",
+    "timerRunning": false,
+    "current_phase": 17,
+    "blueside": {
+      "ban": [
+        {
+          "hero": "/Assets/HeroPick/cici.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/yisunshin.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/lancelot.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/angela.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/chip.png"
+        }
+      ],
+      "pick": [
+        {
+          "hero": "/Assets/HeroPick/kalea.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/lunox.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/granger.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/khaleed.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/hayabusa.png"
+        }
+      ]
+    },
+    "redside": {
+      "ban": [
+        {
+          "hero": "/Assets/HeroPick/grock.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/faramis.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/baxia.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/suyou.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/ling.png"
+        }
+      ],
+      "pick": [
+        {
+          "hero": "/Assets/HeroPick/fredrin.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/chou.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/kimmy.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/irithel.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/mathilda.png"
+        }
+      ]
+    },
+    "timer_running": true
+  }
+}

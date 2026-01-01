@@ -1,0 +1,80 @@
+{
+  "draftdata": {
+    "timer": "60",
+    "timerRunning": false,
+    "current_phase": 4,
+    "blueside": {
+      "ban": [
+        {
+          "hero": "/Assets/HeroPick/yisunshin.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/franco.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/fredrin.png"
+        },
+        {
+          "hero": ""
+        },
+        {
+          "hero": ""
+        }
+      ],
+      "pick": [
+        {
+          "hero": "/Assets/HeroPick/gusion.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/chou.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/kagura.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/zilong.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/wanwan.png"
+        }
+      ]
+    },
+    "redside": {
+      "ban": [
+        {
+          "hero": "/Assets/HeroPick/gloo.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/estes.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/lancelot.png"
+        },
+        {
+          "hero": ""
+        },
+        {
+          "hero": ""
+        }
+      ],
+      "pick": [
+        {
+          "hero": "/Assets/HeroPick/natan.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/selena.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/angela.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/paquito.png"
+        },
+        {
+          "hero": "/Assets/HeroPick/xborg.png"
+        }
+      ]
+    },
+    "timer_running": true
+  }
+}
