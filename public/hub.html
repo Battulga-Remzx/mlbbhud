@@ -506,9 +506,9 @@
                     
                     let url;
                     if (copyType === 'ip') {
-                        url = `http://${serverIP}:${serverPort}/${filename}`;
+                        url = `https://mlbbhud.vercel.app//${filename}`;
                     } else { // Defaults to 'local'
-                        url = `http://localhost:${serverPort}/${filename}`;
+                        url = `https://mlbbhud.vercel.app//${filename}`;
                     }
 
                     try {
@@ -547,7 +547,7 @@
                 button.addEventListener("click", e => {
                     const filename = e.currentTarget.dataset.filename;
                     // "Open" is only for control panels, which must use the server IP
-                    const url = `http://${serverIP}:${serverPort}/${filename}`;
+                    const url = `https://mlbbhud.vercel.app/${filename}`;
                     window.open(url, "_blank");
                 });
             });
